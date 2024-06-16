@@ -10,13 +10,7 @@ import 'package:translink/pages/ride_history.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-    options: const FirebaseOptions(
-      apiKey: "AIzaSyBKWcvidHcVddGCm2a0s9L8tFQSKjpJlZg",
-      appId: "1:23346528162:android:d9eda0409b7bc965873cfb",
-      messagingSenderId: "23346528162",
-      projectId: "translink-64a22",
-      authDomain: "translink-64a22.firebaseapp.com",
-    ),
+    // Get this part from local app copy
   );
 
   runApp(const MyApp());
